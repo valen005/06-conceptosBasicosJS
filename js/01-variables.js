@@ -30,4 +30,14 @@ alert('Hola Mundo');
 //solicitar a un usuario un nombre y mostrar un saludo
 let nombreUsuario = prompt('Ingrese su nombre');
 console.log(nombreUsuario);
-document.write('<p>Bienvenido ' + nombreUsuario + '</p>')
+document.write('<p>Bienvenido ' + nombreUsuario + '</p>');
+
+//solicitar a un usuario un precio de un producto de dolares
+const precioSolicitado = prompt('Ingrese un valor en dolares');
+console.log(precioSolicitado);
+
+alert ('El importe indicado corresponde a USD$' + (parseFloat(precioSolicitado) + 2) + ' pesos argentinos');
+
+//para quitar comillas en una operacion matematica en prompt
+//parseInt('50') enteros
+//parseFloat('50.4') decimales
